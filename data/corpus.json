@@ -1,0 +1,692 @@
+[
+  {
+    "id": 1,
+    "category": "data_emploi",
+    "title": "Data Analyst — DREES",
+    "content": "Poste de Data Analyst au sein de la Direction de la recherche, des études, de l évaluation et des statistiques. Missions : production d indicateurs statistiques sur les minima sociaux, traitement de données massives (format parquet, Arrow), automatisation de pipelines R et Python. Maîtrise de SQL, R (tidyverse), Python (pandas, scikit-learn) requise. Expérience en économétrie appréciée."
+  },
+  {
+    "id": 2,
+    "category": "data_emploi",
+    "title": "Data Scientist — Banque centrale",
+    "content": "Modélisation du risque de crédit et scoring probabiliste. Mise en oeuvre de modèles de machine learning (XGBoost, LightGBM, CatBoost) pour la prédiction du défaut. Évaluation par AUC-ROC, Gini, KS Statistic. Travail en Python et R, environnement Databricks. Connaissance des réglementations Bâle III et IFRS 9 souhaitée."
+  },
+  {
+    "id": 3,
+    "category": "data_emploi",
+    "title": "Ingénieur Data — Pipeline ETL",
+    "content": "Conception et maintenance de pipelines de données en PySpark sur plateforme cloud (Azure Databricks). Architecture Medallion (Bronze, Silver, Gold), Delta Lake, MERGE INTO, SCD Type 2. Maîtrise de SQL avancé, Apache Spark, orchestration Airflow. Expérience en data engineering et connaissance des bonnes pratiques MLOps."
+  },
+  {
+    "id": 4,
+    "category": "data_emploi",
+    "title": "Économiste statisticien — INSEE",
+    "content": "Traitement et analyse de données d enquêtes nationales. Méthodes économétriques : régression linéaire, logistique, modèles à effets fixes. Utilisation de R (tidyverse, survey, lme4) et SAS. Rédaction de publications scientifiques et notes de conjoncture économique. Doctorat ou Master en économie statistique apprécié."
+  },
+  {
+    "id": 5,
+    "category": "data_emploi",
+    "title": "Analyste BI — Tableau / Power BI",
+    "content": "Développement de tableaux de bord stratégiques sur Tableau et Power BI. Extraction et transformation de données depuis datawarehouse SQL. Création de datamarts, définition des KPIs métier. Formation des utilisateurs finaux. Collaboration avec équipes métier pour traduire les besoins en visualisations pertinentes."
+  },
+  {
+    "id": 6,
+    "category": "data_emploi",
+    "title": "Data Engineer — Traitement de données massives",
+    "content": "Ingestion et transformation de données volumineuses en formats parquet via Apache Spark. Mise en place de pipelines reproductibles et versionning Git. Environnement Linux, Python (PySpark), orchestration via Airflow. Expérience sur plateformes SSP Cloud (Onyxia), MinIO S3, gouvernance et sécurité des données."
+  },
+  {
+    "id": 7,
+    "category": "data_emploi",
+    "title": "Chargé d études statistiques — Ministère",
+    "content": "Exploitation de bases administratives (CNAF, DREES) pour la production d indicateurs sur les politiques sociales. Traitement de données sous contrainte RGPD en environnement CASD. Maîtrise de R, SAS, Excel avancé. Rédaction de notes statistiques et participation aux publications officielles."
+  },
+  {
+    "id": 8,
+    "category": "data_emploi",
+    "title": "NLP Engineer — Analyse de textes",
+    "content": "Développement de pipelines NLP pour le traitement de corpus textuels en français. Topic modeling (LDA, BERTopic), classification de textes, extraction d entités nommées. Maîtrise de Python (spaCy, Hugging Face, scikit-learn), NLTK. Connaissance de CamemBERT ou modèles de langue français appréciée."
+  },
+  {
+    "id": 9,
+    "category": "data_emploi",
+    "title": "Actuaire — Modélisation risques",
+    "content": "Modélisation actuarielle du risque santé et prévoyance. Calcul des primes, provisionnement, loss ratio. Méthodes statistiques avancées, modèles GLM. Maîtrise de R (actuar, ChainLadder), SAS, Excel. Connaissance des normes Solvabilité II et IFRS 17. Certification ISFA ou équivalent souhaitée."
+  },
+  {
+    "id": 10,
+    "category": "data_emploi",
+    "title": "Machine Learning Engineer — Production",
+    "content": "Déploiement de modèles ML en production via API REST (FastAPI, Flask). MLflow pour le tracking des expériences, Docker pour la conteneurisation, CI/CD GitHub Actions. Monitoring de la dérive des données (data drift, concept drift). Expérience en Python, MLOps, Kubernetes apprécié."
+  },
+  {
+    "id": 11,
+    "category": "sante_publique",
+    "title": "Rapport DREES — Accès aux soins 2024",
+    "content": "Ce rapport analyse les inégalités territoriales d accès aux soins de santé en France. Les déserts médicaux touchent 8 % de la population en zones rurales. Le nombre de médecins généralistes pour 100 000 habitants varie du simple au triple selon les départements. Les mesures de régulation démographique médicale et les maisons de santé pluriprofessionnelles constituent les réponses politiques prioritaires."
+  },
+  {
+    "id": 12,
+    "category": "sante_publique",
+    "title": "Bilan vaccination grippe saisonnière",
+    "content": "La campagne de vaccination contre la grippe saisonnière 2024-2025 a atteint un taux de couverture de 52 % chez les personnes à risque, contre 48 % l année précédente. L augmentation s explique par l extension aux pharmacies et l amélioration de la communication. Des inégalités persistent chez les populations précaires."
+  },
+  {
+    "id": 13,
+    "category": "sante_publique",
+    "title": "Plan national santé mentale 2024",
+    "content": "Le plan national de santé mentale prévoit le renforcement des capacités de prise en charge ambulatoire, la réduction des délais d accès aux psychiatres et le développement des équipes mobiles de crise. Budget alloué de 150 millions d euros sur 3 ans. Priorité aux jeunes de 15 à 25 ans et aux personnes en situation de précarité."
+  },
+  {
+    "id": 14,
+    "category": "sante_publique",
+    "title": "Indicateurs minima sociaux RSA — DREES",
+    "content": "Étude des trajectoires individuelles des bénéficiaires du RSA. Classification par k-means des profils de sortie du dispositif. Variables explicatives : durée dans le dispositif, âge, composition familiale, niveau de qualification. La probabilité de sortie vers l emploi est modélisée par régression logistique. Données issues des fichiers administratifs CNAF."
+  },
+  {
+    "id": 15,
+    "category": "sante_publique",
+    "title": "Rapport inégalités de santé — Sécurité sociale",
+    "content": "Les inégalités sociales de santé restent marquées en France. L espérance de vie des ouvriers est inférieure de 7 ans à celle des cadres. Les facteurs explicatifs incluent les conditions de travail, les comportements de santé et l accès différencié aux soins préventifs. Les politiques de réduction des inégalités requièrent une approche intersectorielle."
+  },
+  {
+    "id": 16,
+    "category": "logement",
+    "title": "Rapport mal-logement — Fondation Abbé Pierre 2024",
+    "content": "Plus de 4 millions de personnes sont mal logées en France en 2024. Le sans-abrisme touche 330 000 personnes, en augmentation de 11 % par rapport à 2023. Les femmes représentent désormais 44 % des personnes sans domicile. Le rapport préconise la construction de 250 000 logements sociaux par an et le renforcement des dispositifs d hébergement d urgence."
+  },
+  {
+    "id": 17,
+    "category": "logement",
+    "title": "Dispositif MaPrimeRénov — bilan 2024",
+    "content": "MaPrimeRénov a financé 700 000 rénovations énergétiques en 2024, pour un budget de 4 milliards d euros. Les travaux d isolation thermique représentent 45 % des dossiers. Le dispositif cible prioritairement les ménages modestes avec un bonus pour les zones rurales. Le gain énergétique moyen est de 40 % après rénovation."
+  },
+  {
+    "id": 18,
+    "category": "logement",
+    "title": "Politique du logement social — bilan QPV",
+    "content": "Les quartiers prioritaires de la politique de la ville (QPV) concentrent 5,4 millions d habitants. Le programme de rénovation urbaine ANRU a engagé 12 milliards d euros depuis 2014. Les indicateurs de mixité sociale montrent une amélioration dans les quartiers rénovés, bien que les écarts de revenus restent supérieurs à la moyenne nationale."
+  },
+  {
+    "id": 19,
+    "category": "education",
+    "title": "Rapport décrochage scolaire — MEN 2024",
+    "content": "Le taux de décrochage scolaire en France s établit à 8,5 % en 2024, en légère baisse. Les garçons sont deux fois plus touchés que les filles. Les lycées professionnels concentrent 60 % des décrocheurs. Les dispositifs de raccrochage (MLDS, MFR) permettent un retour en formation pour 40 % des jeunes contactés."
+  },
+  {
+    "id": 20,
+    "category": "education",
+    "title": "Service civique — bilan annuel 2024",
+    "content": "180 000 jeunes ont effectué une mission de service civique en 2024. Les secteurs les plus représentés sont la solidarité (35 %), le sport (22 %) et l éducation (18 %). La durée moyenne des missions est de 8 mois. Le dispositif favorise l insertion professionnelle : 72 % des anciens volontaires trouvent un emploi dans les 6 mois suivants."
+  },
+  {
+    "id": 21,
+    "category": "economie",
+    "title": "Note conjoncture INSEE — T3 2024",
+    "content": "La croissance du PIB français s établit à +0,4 % au troisième trimestre 2024. L inflation ralentit à 2,1 % sur un an. Le taux de chômage se stabilise à 7,3 %. La consommation des ménages reste le principal moteur de croissance, soutenue par la progression des salaires réels. Les exportations souffrent du ralentissement de la demande européenne."
+  },
+  {
+    "id": 22,
+    "category": "economie",
+    "title": "Évaluation impact Prime d activité",
+    "content": "La prime d activité bénéficie à 4,4 millions de foyers en 2024 pour un coût de 9,8 milliards d euros. L évaluation économétrique montre un effet positif sur le retour à l emploi des travailleurs à temps partiel. La méthodologie de différence en différences compare les trajectoires d emploi avant et après l introduction de la prime."
+  },
+  {
+    "id": 23,
+    "category": "economie",
+    "title": "Rapport Cour des comptes — dépenses sociales",
+    "content": "Les dépenses de protection sociale représentent 34 % du PIB en France, soit le niveau le plus élevé de l OCDE. La Cour des comptes souligne la nécessité d une meilleure évaluation des politiques sociales et d une rationalisation des minima sociaux. Le rapport recommande la fusion de plusieurs allocations pour simplifier le système et réduire le non-recours."
+  },
+  {
+    "id": 24,
+    "category": "data_emploi",
+    "title": "Data Analyst — DREES (variation)",
+    "content": "Une analyse approfondie révèle que Data Analyst — DREES constitue un enjeu majeur. Poste de Data Analyst au sein de la Direction de la recherche, des études, de l évaluation et des statistiques. Missions : production d indicateurs statistiques sur les minima sociaux, traitement de données massives (format parquet, Arrow), automatisation de pipelines R et Python. Maîtrise de SQL, R (tidyverse), Python (pandas, scikit-learn) requise. Expérience en économétrie appréciée."
+  },
+  {
+    "id": 25,
+    "category": "data_emploi",
+    "title": "Data Analyst — DREES (variation)",
+    "content": "Dans le cadre des politiques publiques, Data Analyst — DREES fait l objet d une attention particulière. Poste de Data Analyst au sein de la Direction de la recherche, des études, de l évaluation et des statistiques. Missions : production d indicateurs statistiques sur les minima sociaux, traitement de données massives (format parquet, Arrow), automatisation de pipelines R et Python. Maîtrise de SQL, R (tidyverse), Python (pandas, scikit-learn) requise. Expérience en économétrie appréciée."
+  },
+  {
+    "id": 26,
+    "category": "data_emploi",
+    "title": "Data Analyst — DREES (variation)",
+    "content": "Poste de Data Analyst au sein de la Direction de la recherche, des études, de l évaluation et des statistiques. Missions : production d indicateurs statistiques sur les minima sociaux, traitement de données massives (format parquet, Arrow), automatisation de pipelines R et Python. Maîtrise de SQL, R (tidyverse), Python (pandas, scikit-learn) requise. Expérience en économétrie appréciée. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 27,
+    "category": "data_emploi",
+    "title": "Data Analyst — DREES (variation)",
+    "content": "Poste de Data Analyst au sein de la Direction de la recherche, des études, de l évaluation et des statistiques. Missions : production d indicateurs statistiques sur les minima sociaux, traitement de données massives (format parquet, Arrow), automatisation de pipelines R et Python. Maîtrise de SQL, R (tidyverse), Python (pandas, scikit-learn) requise. Expérience en économétrie appréciée. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 28,
+    "category": "data_emploi",
+    "title": "Data Scientist — Banque centrale (variation)",
+    "content": "Une analyse approfondie révèle que Data Scientist — Banque centrale constitue un enjeu majeur. Modélisation du risque de crédit et scoring probabiliste. Mise en oeuvre de modèles de machine learning (XGBoost, LightGBM, CatBoost) pour la prédiction du défaut. Évaluation par AUC-ROC, Gini, KS Statistic. Travail en Python et R, environnement Databricks. Connaissance des réglementations Bâle III et IFRS 9 souhaitée."
+  },
+  {
+    "id": 29,
+    "category": "data_emploi",
+    "title": "Data Scientist — Banque centrale (variation)",
+    "content": "Dans le cadre des politiques publiques, Data Scientist — Banque centrale fait l objet d une attention particulière. Modélisation du risque de crédit et scoring probabiliste. Mise en oeuvre de modèles de machine learning (XGBoost, LightGBM, CatBoost) pour la prédiction du défaut. Évaluation par AUC-ROC, Gini, KS Statistic. Travail en Python et R, environnement Databricks. Connaissance des réglementations Bâle III et IFRS 9 souhaitée."
+  },
+  {
+    "id": 30,
+    "category": "data_emploi",
+    "title": "Data Scientist — Banque centrale (variation)",
+    "content": "Modélisation du risque de crédit et scoring probabiliste. Mise en oeuvre de modèles de machine learning (XGBoost, LightGBM, CatBoost) pour la prédiction du défaut. Évaluation par AUC-ROC, Gini, KS Statistic. Travail en Python et R, environnement Databricks. Connaissance des réglementations Bâle III et IFRS 9 souhaitée. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 31,
+    "category": "data_emploi",
+    "title": "Data Scientist — Banque centrale (variation)",
+    "content": "Modélisation du risque de crédit et scoring probabiliste. Mise en oeuvre de modèles de machine learning (XGBoost, LightGBM, CatBoost) pour la prédiction du défaut. Évaluation par AUC-ROC, Gini, KS Statistic. Travail en Python et R, environnement Databricks. Connaissance des réglementations Bâle III et IFRS 9 souhaitée. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 32,
+    "category": "data_emploi",
+    "title": "Ingénieur Data — Pipeline ETL (variation)",
+    "content": "Une analyse approfondie révèle que Ingénieur Data — Pipeline ETL constitue un enjeu majeur. Conception et maintenance de pipelines de données en PySpark sur plateforme cloud (Azure Databricks). Architecture Medallion (Bronze, Silver, Gold), Delta Lake, MERGE INTO, SCD Type 2. Maîtrise de SQL avancé, Apache Spark, orchestration Airflow. Expérience en data engineering et connaissance des bonnes pratiques MLOps."
+  },
+  {
+    "id": 33,
+    "category": "data_emploi",
+    "title": "Ingénieur Data — Pipeline ETL (variation)",
+    "content": "Dans le cadre des politiques publiques, Ingénieur Data — Pipeline ETL fait l objet d une attention particulière. Conception et maintenance de pipelines de données en PySpark sur plateforme cloud (Azure Databricks). Architecture Medallion (Bronze, Silver, Gold), Delta Lake, MERGE INTO, SCD Type 2. Maîtrise de SQL avancé, Apache Spark, orchestration Airflow. Expérience en data engineering et connaissance des bonnes pratiques MLOps."
+  },
+  {
+    "id": 34,
+    "category": "data_emploi",
+    "title": "Ingénieur Data — Pipeline ETL (variation)",
+    "content": "Conception et maintenance de pipelines de données en PySpark sur plateforme cloud (Azure Databricks). Architecture Medallion (Bronze, Silver, Gold), Delta Lake, MERGE INTO, SCD Type 2. Maîtrise de SQL avancé, Apache Spark, orchestration Airflow. Expérience en data engineering et connaissance des bonnes pratiques MLOps. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 35,
+    "category": "data_emploi",
+    "title": "Ingénieur Data — Pipeline ETL (variation)",
+    "content": "Conception et maintenance de pipelines de données en PySpark sur plateforme cloud (Azure Databricks). Architecture Medallion (Bronze, Silver, Gold), Delta Lake, MERGE INTO, SCD Type 2. Maîtrise de SQL avancé, Apache Spark, orchestration Airflow. Expérience en data engineering et connaissance des bonnes pratiques MLOps. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 36,
+    "category": "data_emploi",
+    "title": "Économiste statisticien — INSEE (variation)",
+    "content": "Une analyse approfondie révèle que Économiste statisticien — INSEE constitue un enjeu majeur. Traitement et analyse de données d enquêtes nationales. Méthodes économétriques : régression linéaire, logistique, modèles à effets fixes. Utilisation de R (tidyverse, survey, lme4) et SAS. Rédaction de publications scientifiques et notes de conjoncture économique. Doctorat ou Master en économie statistique apprécié."
+  },
+  {
+    "id": 37,
+    "category": "data_emploi",
+    "title": "Économiste statisticien — INSEE (variation)",
+    "content": "Dans le cadre des politiques publiques, Économiste statisticien — INSEE fait l objet d une attention particulière. Traitement et analyse de données d enquêtes nationales. Méthodes économétriques : régression linéaire, logistique, modèles à effets fixes. Utilisation de R (tidyverse, survey, lme4) et SAS. Rédaction de publications scientifiques et notes de conjoncture économique. Doctorat ou Master en économie statistique apprécié."
+  },
+  {
+    "id": 38,
+    "category": "data_emploi",
+    "title": "Économiste statisticien — INSEE (variation)",
+    "content": "Traitement et analyse de données d enquêtes nationales. Méthodes économétriques : régression linéaire, logistique, modèles à effets fixes. Utilisation de R (tidyverse, survey, lme4) et SAS. Rédaction de publications scientifiques et notes de conjoncture économique. Doctorat ou Master en économie statistique apprécié. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 39,
+    "category": "data_emploi",
+    "title": "Économiste statisticien — INSEE (variation)",
+    "content": "Traitement et analyse de données d enquêtes nationales. Méthodes économétriques : régression linéaire, logistique, modèles à effets fixes. Utilisation de R (tidyverse, survey, lme4) et SAS. Rédaction de publications scientifiques et notes de conjoncture économique. Doctorat ou Master en économie statistique apprécié. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 40,
+    "category": "data_emploi",
+    "title": "Analyste BI — Tableau / Power BI (variation)",
+    "content": "Une analyse approfondie révèle que Analyste BI — Tableau / Power BI constitue un enjeu majeur. Développement de tableaux de bord stratégiques sur Tableau et Power BI. Extraction et transformation de données depuis datawarehouse SQL. Création de datamarts, définition des KPIs métier. Formation des utilisateurs finaux. Collaboration avec équipes métier pour traduire les besoins en visualisations pertinentes."
+  },
+  {
+    "id": 41,
+    "category": "data_emploi",
+    "title": "Analyste BI — Tableau / Power BI (variation)",
+    "content": "Dans le cadre des politiques publiques, Analyste BI — Tableau / Power BI fait l objet d une attention particulière. Développement de tableaux de bord stratégiques sur Tableau et Power BI. Extraction et transformation de données depuis datawarehouse SQL. Création de datamarts, définition des KPIs métier. Formation des utilisateurs finaux. Collaboration avec équipes métier pour traduire les besoins en visualisations pertinentes."
+  },
+  {
+    "id": 42,
+    "category": "data_emploi",
+    "title": "Analyste BI — Tableau / Power BI (variation)",
+    "content": "Développement de tableaux de bord stratégiques sur Tableau et Power BI. Extraction et transformation de données depuis datawarehouse SQL. Création de datamarts, définition des KPIs métier. Formation des utilisateurs finaux. Collaboration avec équipes métier pour traduire les besoins en visualisations pertinentes. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 43,
+    "category": "data_emploi",
+    "title": "Analyste BI — Tableau / Power BI (variation)",
+    "content": "Développement de tableaux de bord stratégiques sur Tableau et Power BI. Extraction et transformation de données depuis datawarehouse SQL. Création de datamarts, définition des KPIs métier. Formation des utilisateurs finaux. Collaboration avec équipes métier pour traduire les besoins en visualisations pertinentes. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 44,
+    "category": "data_emploi",
+    "title": "Data Engineer — Traitement de données massives (variation)",
+    "content": "Une analyse approfondie révèle que Data Engineer — Traitement de données massives constitue un enjeu majeur. Ingestion et transformation de données volumineuses en formats parquet via Apache Spark. Mise en place de pipelines reproductibles et versionning Git. Environnement Linux, Python (PySpark), orchestration via Airflow. Expérience sur plateformes SSP Cloud (Onyxia), MinIO S3, gouvernance et sécurité des données."
+  },
+  {
+    "id": 45,
+    "category": "data_emploi",
+    "title": "Data Engineer — Traitement de données massives (variation)",
+    "content": "Dans le cadre des politiques publiques, Data Engineer — Traitement de données massives fait l objet d une attention particulière. Ingestion et transformation de données volumineuses en formats parquet via Apache Spark. Mise en place de pipelines reproductibles et versionning Git. Environnement Linux, Python (PySpark), orchestration via Airflow. Expérience sur plateformes SSP Cloud (Onyxia), MinIO S3, gouvernance et sécurité des données."
+  },
+  {
+    "id": 46,
+    "category": "data_emploi",
+    "title": "Data Engineer — Traitement de données massives (variation)",
+    "content": "Ingestion et transformation de données volumineuses en formats parquet via Apache Spark. Mise en place de pipelines reproductibles et versionning Git. Environnement Linux, Python (PySpark), orchestration via Airflow. Expérience sur plateformes SSP Cloud (Onyxia), MinIO S3, gouvernance et sécurité des données. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 47,
+    "category": "data_emploi",
+    "title": "Data Engineer — Traitement de données massives (variation)",
+    "content": "Ingestion et transformation de données volumineuses en formats parquet via Apache Spark. Mise en place de pipelines reproductibles et versionning Git. Environnement Linux, Python (PySpark), orchestration via Airflow. Expérience sur plateformes SSP Cloud (Onyxia), MinIO S3, gouvernance et sécurité des données. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 48,
+    "category": "data_emploi",
+    "title": "Chargé d études statistiques — Ministère (variation)",
+    "content": "Une analyse approfondie révèle que Chargé d études statistiques — Ministère constitue un enjeu majeur. Exploitation de bases administratives (CNAF, DREES) pour la production d indicateurs sur les politiques sociales. Traitement de données sous contrainte RGPD en environnement CASD. Maîtrise de R, SAS, Excel avancé. Rédaction de notes statistiques et participation aux publications officielles."
+  },
+  {
+    "id": 49,
+    "category": "data_emploi",
+    "title": "Chargé d études statistiques — Ministère (variation)",
+    "content": "Dans le cadre des politiques publiques, Chargé d études statistiques — Ministère fait l objet d une attention particulière. Exploitation de bases administratives (CNAF, DREES) pour la production d indicateurs sur les politiques sociales. Traitement de données sous contrainte RGPD en environnement CASD. Maîtrise de R, SAS, Excel avancé. Rédaction de notes statistiques et participation aux publications officielles."
+  },
+  {
+    "id": 50,
+    "category": "data_emploi",
+    "title": "Chargé d études statistiques — Ministère (variation)",
+    "content": "Exploitation de bases administratives (CNAF, DREES) pour la production d indicateurs sur les politiques sociales. Traitement de données sous contrainte RGPD en environnement CASD. Maîtrise de R, SAS, Excel avancé. Rédaction de notes statistiques et participation aux publications officielles. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 51,
+    "category": "data_emploi",
+    "title": "Chargé d études statistiques — Ministère (variation)",
+    "content": "Exploitation de bases administratives (CNAF, DREES) pour la production d indicateurs sur les politiques sociales. Traitement de données sous contrainte RGPD en environnement CASD. Maîtrise de R, SAS, Excel avancé. Rédaction de notes statistiques et participation aux publications officielles. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 52,
+    "category": "data_emploi",
+    "title": "NLP Engineer — Analyse de textes (variation)",
+    "content": "Une analyse approfondie révèle que NLP Engineer — Analyse de textes constitue un enjeu majeur. Développement de pipelines NLP pour le traitement de corpus textuels en français. Topic modeling (LDA, BERTopic), classification de textes, extraction d entités nommées. Maîtrise de Python (spaCy, Hugging Face, scikit-learn), NLTK. Connaissance de CamemBERT ou modèles de langue français appréciée."
+  },
+  {
+    "id": 53,
+    "category": "data_emploi",
+    "title": "NLP Engineer — Analyse de textes (variation)",
+    "content": "Dans le cadre des politiques publiques, NLP Engineer — Analyse de textes fait l objet d une attention particulière. Développement de pipelines NLP pour le traitement de corpus textuels en français. Topic modeling (LDA, BERTopic), classification de textes, extraction d entités nommées. Maîtrise de Python (spaCy, Hugging Face, scikit-learn), NLTK. Connaissance de CamemBERT ou modèles de langue français appréciée."
+  },
+  {
+    "id": 54,
+    "category": "data_emploi",
+    "title": "NLP Engineer — Analyse de textes (variation)",
+    "content": "Développement de pipelines NLP pour le traitement de corpus textuels en français. Topic modeling (LDA, BERTopic), classification de textes, extraction d entités nommées. Maîtrise de Python (spaCy, Hugging Face, scikit-learn), NLTK. Connaissance de CamemBERT ou modèles de langue français appréciée. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 55,
+    "category": "data_emploi",
+    "title": "NLP Engineer — Analyse de textes (variation)",
+    "content": "Développement de pipelines NLP pour le traitement de corpus textuels en français. Topic modeling (LDA, BERTopic), classification de textes, extraction d entités nommées. Maîtrise de Python (spaCy, Hugging Face, scikit-learn), NLTK. Connaissance de CamemBERT ou modèles de langue français appréciée. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 56,
+    "category": "data_emploi",
+    "title": "Actuaire — Modélisation risques (variation)",
+    "content": "Une analyse approfondie révèle que Actuaire — Modélisation risques constitue un enjeu majeur. Modélisation actuarielle du risque santé et prévoyance. Calcul des primes, provisionnement, loss ratio. Méthodes statistiques avancées, modèles GLM. Maîtrise de R (actuar, ChainLadder), SAS, Excel. Connaissance des normes Solvabilité II et IFRS 17. Certification ISFA ou équivalent souhaitée."
+  },
+  {
+    "id": 57,
+    "category": "data_emploi",
+    "title": "Actuaire — Modélisation risques (variation)",
+    "content": "Dans le cadre des politiques publiques, Actuaire — Modélisation risques fait l objet d une attention particulière. Modélisation actuarielle du risque santé et prévoyance. Calcul des primes, provisionnement, loss ratio. Méthodes statistiques avancées, modèles GLM. Maîtrise de R (actuar, ChainLadder), SAS, Excel. Connaissance des normes Solvabilité II et IFRS 17. Certification ISFA ou équivalent souhaitée."
+  },
+  {
+    "id": 58,
+    "category": "data_emploi",
+    "title": "Actuaire — Modélisation risques (variation)",
+    "content": "Modélisation actuarielle du risque santé et prévoyance. Calcul des primes, provisionnement, loss ratio. Méthodes statistiques avancées, modèles GLM. Maîtrise de R (actuar, ChainLadder), SAS, Excel. Connaissance des normes Solvabilité II et IFRS 17. Certification ISFA ou équivalent souhaitée. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 59,
+    "category": "data_emploi",
+    "title": "Actuaire — Modélisation risques (variation)",
+    "content": "Modélisation actuarielle du risque santé et prévoyance. Calcul des primes, provisionnement, loss ratio. Méthodes statistiques avancées, modèles GLM. Maîtrise de R (actuar, ChainLadder), SAS, Excel. Connaissance des normes Solvabilité II et IFRS 17. Certification ISFA ou équivalent souhaitée. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 60,
+    "category": "data_emploi",
+    "title": "Machine Learning Engineer — Production (variation)",
+    "content": "Une analyse approfondie révèle que Machine Learning Engineer — Production constitue un enjeu majeur. Déploiement de modèles ML en production via API REST (FastAPI, Flask). MLflow pour le tracking des expériences, Docker pour la conteneurisation, CI/CD GitHub Actions. Monitoring de la dérive des données (data drift, concept drift). Expérience en Python, MLOps, Kubernetes apprécié."
+  },
+  {
+    "id": 61,
+    "category": "data_emploi",
+    "title": "Machine Learning Engineer — Production (variation)",
+    "content": "Dans le cadre des politiques publiques, Machine Learning Engineer — Production fait l objet d une attention particulière. Déploiement de modèles ML en production via API REST (FastAPI, Flask). MLflow pour le tracking des expériences, Docker pour la conteneurisation, CI/CD GitHub Actions. Monitoring de la dérive des données (data drift, concept drift). Expérience en Python, MLOps, Kubernetes apprécié."
+  },
+  {
+    "id": 62,
+    "category": "data_emploi",
+    "title": "Machine Learning Engineer — Production (variation)",
+    "content": "Déploiement de modèles ML en production via API REST (FastAPI, Flask). MLflow pour le tracking des expériences, Docker pour la conteneurisation, CI/CD GitHub Actions. Monitoring de la dérive des données (data drift, concept drift). Expérience en Python, MLOps, Kubernetes apprécié. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 63,
+    "category": "data_emploi",
+    "title": "Machine Learning Engineer — Production (variation)",
+    "content": "Déploiement de modèles ML en production via API REST (FastAPI, Flask). MLflow pour le tracking des expériences, Docker pour la conteneurisation, CI/CD GitHub Actions. Monitoring de la dérive des données (data drift, concept drift). Expérience en Python, MLOps, Kubernetes apprécié. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 64,
+    "category": "sante_publique",
+    "title": "Rapport DREES — Accès aux soins 2024 (variation)",
+    "content": "Une analyse approfondie révèle que Rapport DREES — Accès aux soins 2024 constitue un enjeu majeur. Ce rapport analyse les inégalités territoriales d accès aux soins de santé en France. Les déserts médicaux touchent 8 % de la population en zones rurales. Le nombre de médecins généralistes pour 100 000 habitants varie du simple au triple selon les départements. Les mesures de régulation démographique médicale et les maisons de santé pluriprofessionnelles constituent les réponses politiques prioritaires."
+  },
+  {
+    "id": 65,
+    "category": "sante_publique",
+    "title": "Rapport DREES — Accès aux soins 2024 (variation)",
+    "content": "Dans le cadre des politiques publiques, Rapport DREES — Accès aux soins 2024 fait l objet d une attention particulière. Ce rapport analyse les inégalités territoriales d accès aux soins de santé en France. Les déserts médicaux touchent 8 % de la population en zones rurales. Le nombre de médecins généralistes pour 100 000 habitants varie du simple au triple selon les départements. Les mesures de régulation démographique médicale et les maisons de santé pluriprofessionnelles constituent les réponses politiques prioritaires."
+  },
+  {
+    "id": 66,
+    "category": "sante_publique",
+    "title": "Rapport DREES — Accès aux soins 2024 (variation)",
+    "content": "Ce rapport analyse les inégalités territoriales d accès aux soins de santé en France. Les déserts médicaux touchent 8 % de la population en zones rurales. Le nombre de médecins généralistes pour 100 000 habitants varie du simple au triple selon les départements. Les mesures de régulation démographique médicale et les maisons de santé pluriprofessionnelles constituent les réponses politiques prioritaires. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 67,
+    "category": "sante_publique",
+    "title": "Rapport DREES — Accès aux soins 2024 (variation)",
+    "content": "Ce rapport analyse les inégalités territoriales d accès aux soins de santé en France. Les déserts médicaux touchent 8 % de la population en zones rurales. Le nombre de médecins généralistes pour 100 000 habitants varie du simple au triple selon les départements. Les mesures de régulation démographique médicale et les maisons de santé pluriprofessionnelles constituent les réponses politiques prioritaires. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 68,
+    "category": "sante_publique",
+    "title": "Bilan vaccination grippe saisonnière (variation)",
+    "content": "Une analyse approfondie révèle que Bilan vaccination grippe saisonnière constitue un enjeu majeur. La campagne de vaccination contre la grippe saisonnière 2024-2025 a atteint un taux de couverture de 52 % chez les personnes à risque, contre 48 % l année précédente. L augmentation s explique par l extension aux pharmacies et l amélioration de la communication. Des inégalités persistent chez les populations précaires."
+  },
+  {
+    "id": 69,
+    "category": "sante_publique",
+    "title": "Bilan vaccination grippe saisonnière (variation)",
+    "content": "Dans le cadre des politiques publiques, Bilan vaccination grippe saisonnière fait l objet d une attention particulière. La campagne de vaccination contre la grippe saisonnière 2024-2025 a atteint un taux de couverture de 52 % chez les personnes à risque, contre 48 % l année précédente. L augmentation s explique par l extension aux pharmacies et l amélioration de la communication. Des inégalités persistent chez les populations précaires."
+  },
+  {
+    "id": 70,
+    "category": "sante_publique",
+    "title": "Bilan vaccination grippe saisonnière (variation)",
+    "content": "La campagne de vaccination contre la grippe saisonnière 2024-2025 a atteint un taux de couverture de 52 % chez les personnes à risque, contre 48 % l année précédente. L augmentation s explique par l extension aux pharmacies et l amélioration de la communication. Des inégalités persistent chez les populations précaires. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 71,
+    "category": "sante_publique",
+    "title": "Bilan vaccination grippe saisonnière (variation)",
+    "content": "La campagne de vaccination contre la grippe saisonnière 2024-2025 a atteint un taux de couverture de 52 % chez les personnes à risque, contre 48 % l année précédente. L augmentation s explique par l extension aux pharmacies et l amélioration de la communication. Des inégalités persistent chez les populations précaires. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 72,
+    "category": "sante_publique",
+    "title": "Plan national santé mentale 2024 (variation)",
+    "content": "Une analyse approfondie révèle que Plan national santé mentale 2024 constitue un enjeu majeur. Le plan national de santé mentale prévoit le renforcement des capacités de prise en charge ambulatoire, la réduction des délais d accès aux psychiatres et le développement des équipes mobiles de crise. Budget alloué de 150 millions d euros sur 3 ans. Priorité aux jeunes de 15 à 25 ans et aux personnes en situation de précarité."
+  },
+  {
+    "id": 73,
+    "category": "sante_publique",
+    "title": "Plan national santé mentale 2024 (variation)",
+    "content": "Dans le cadre des politiques publiques, Plan national santé mentale 2024 fait l objet d une attention particulière. Le plan national de santé mentale prévoit le renforcement des capacités de prise en charge ambulatoire, la réduction des délais d accès aux psychiatres et le développement des équipes mobiles de crise. Budget alloué de 150 millions d euros sur 3 ans. Priorité aux jeunes de 15 à 25 ans et aux personnes en situation de précarité."
+  },
+  {
+    "id": 74,
+    "category": "sante_publique",
+    "title": "Plan national santé mentale 2024 (variation)",
+    "content": "Le plan national de santé mentale prévoit le renforcement des capacités de prise en charge ambulatoire, la réduction des délais d accès aux psychiatres et le développement des équipes mobiles de crise. Budget alloué de 150 millions d euros sur 3 ans. Priorité aux jeunes de 15 à 25 ans et aux personnes en situation de précarité. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 75,
+    "category": "sante_publique",
+    "title": "Plan national santé mentale 2024 (variation)",
+    "content": "Le plan national de santé mentale prévoit le renforcement des capacités de prise en charge ambulatoire, la réduction des délais d accès aux psychiatres et le développement des équipes mobiles de crise. Budget alloué de 150 millions d euros sur 3 ans. Priorité aux jeunes de 15 à 25 ans et aux personnes en situation de précarité. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 76,
+    "category": "sante_publique",
+    "title": "Indicateurs minima sociaux RSA — DREES (variation)",
+    "content": "Une analyse approfondie révèle que Indicateurs minima sociaux RSA — DREES constitue un enjeu majeur. Étude des trajectoires individuelles des bénéficiaires du RSA. Classification par k-means des profils de sortie du dispositif. Variables explicatives : durée dans le dispositif, âge, composition familiale, niveau de qualification. La probabilité de sortie vers l emploi est modélisée par régression logistique. Données issues des fichiers administratifs CNAF."
+  },
+  {
+    "id": 77,
+    "category": "sante_publique",
+    "title": "Indicateurs minima sociaux RSA — DREES (variation)",
+    "content": "Dans le cadre des politiques publiques, Indicateurs minima sociaux RSA — DREES fait l objet d une attention particulière. Étude des trajectoires individuelles des bénéficiaires du RSA. Classification par k-means des profils de sortie du dispositif. Variables explicatives : durée dans le dispositif, âge, composition familiale, niveau de qualification. La probabilité de sortie vers l emploi est modélisée par régression logistique. Données issues des fichiers administratifs CNAF."
+  },
+  {
+    "id": 78,
+    "category": "sante_publique",
+    "title": "Indicateurs minima sociaux RSA — DREES (variation)",
+    "content": "Étude des trajectoires individuelles des bénéficiaires du RSA. Classification par k-means des profils de sortie du dispositif. Variables explicatives : durée dans le dispositif, âge, composition familiale, niveau de qualification. La probabilité de sortie vers l emploi est modélisée par régression logistique. Données issues des fichiers administratifs CNAF. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 79,
+    "category": "sante_publique",
+    "title": "Indicateurs minima sociaux RSA — DREES (variation)",
+    "content": "Étude des trajectoires individuelles des bénéficiaires du RSA. Classification par k-means des profils de sortie du dispositif. Variables explicatives : durée dans le dispositif, âge, composition familiale, niveau de qualification. La probabilité de sortie vers l emploi est modélisée par régression logistique. Données issues des fichiers administratifs CNAF. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 80,
+    "category": "sante_publique",
+    "title": "Rapport inégalités de santé — Sécurité sociale (variation)",
+    "content": "Une analyse approfondie révèle que Rapport inégalités de santé — Sécurité sociale constitue un enjeu majeur. Les inégalités sociales de santé restent marquées en France. L espérance de vie des ouvriers est inférieure de 7 ans à celle des cadres. Les facteurs explicatifs incluent les conditions de travail, les comportements de santé et l accès différencié aux soins préventifs. Les politiques de réduction des inégalités requièrent une approche intersectorielle."
+  },
+  {
+    "id": 81,
+    "category": "sante_publique",
+    "title": "Rapport inégalités de santé — Sécurité sociale (variation)",
+    "content": "Dans le cadre des politiques publiques, Rapport inégalités de santé — Sécurité sociale fait l objet d une attention particulière. Les inégalités sociales de santé restent marquées en France. L espérance de vie des ouvriers est inférieure de 7 ans à celle des cadres. Les facteurs explicatifs incluent les conditions de travail, les comportements de santé et l accès différencié aux soins préventifs. Les politiques de réduction des inégalités requièrent une approche intersectorielle."
+  },
+  {
+    "id": 82,
+    "category": "sante_publique",
+    "title": "Rapport inégalités de santé — Sécurité sociale (variation)",
+    "content": "Les inégalités sociales de santé restent marquées en France. L espérance de vie des ouvriers est inférieure de 7 ans à celle des cadres. Les facteurs explicatifs incluent les conditions de travail, les comportements de santé et l accès différencié aux soins préventifs. Les politiques de réduction des inégalités requièrent une approche intersectorielle. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 83,
+    "category": "sante_publique",
+    "title": "Rapport inégalités de santé — Sécurité sociale (variation)",
+    "content": "Les inégalités sociales de santé restent marquées en France. L espérance de vie des ouvriers est inférieure de 7 ans à celle des cadres. Les facteurs explicatifs incluent les conditions de travail, les comportements de santé et l accès différencié aux soins préventifs. Les politiques de réduction des inégalités requièrent une approche intersectorielle. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 84,
+    "category": "logement",
+    "title": "Rapport mal-logement — Fondation Abbé Pierre 2024 (variation)",
+    "content": "Une analyse approfondie révèle que Rapport mal-logement — Fondation Abbé Pierre 2024 constitue un enjeu majeur. Plus de 4 millions de personnes sont mal logées en France en 2024. Le sans-abrisme touche 330 000 personnes, en augmentation de 11 % par rapport à 2023. Les femmes représentent désormais 44 % des personnes sans domicile. Le rapport préconise la construction de 250 000 logements sociaux par an et le renforcement des dispositifs d hébergement d urgence."
+  },
+  {
+    "id": 85,
+    "category": "logement",
+    "title": "Rapport mal-logement — Fondation Abbé Pierre 2024 (variation)",
+    "content": "Dans le cadre des politiques publiques, Rapport mal-logement — Fondation Abbé Pierre 2024 fait l objet d une attention particulière. Plus de 4 millions de personnes sont mal logées en France en 2024. Le sans-abrisme touche 330 000 personnes, en augmentation de 11 % par rapport à 2023. Les femmes représentent désormais 44 % des personnes sans domicile. Le rapport préconise la construction de 250 000 logements sociaux par an et le renforcement des dispositifs d hébergement d urgence."
+  },
+  {
+    "id": 86,
+    "category": "logement",
+    "title": "Rapport mal-logement — Fondation Abbé Pierre 2024 (variation)",
+    "content": "Plus de 4 millions de personnes sont mal logées en France en 2024. Le sans-abrisme touche 330 000 personnes, en augmentation de 11 % par rapport à 2023. Les femmes représentent désormais 44 % des personnes sans domicile. Le rapport préconise la construction de 250 000 logements sociaux par an et le renforcement des dispositifs d hébergement d urgence. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 87,
+    "category": "logement",
+    "title": "Rapport mal-logement — Fondation Abbé Pierre 2024 (variation)",
+    "content": "Plus de 4 millions de personnes sont mal logées en France en 2024. Le sans-abrisme touche 330 000 personnes, en augmentation de 11 % par rapport à 2023. Les femmes représentent désormais 44 % des personnes sans domicile. Le rapport préconise la construction de 250 000 logements sociaux par an et le renforcement des dispositifs d hébergement d urgence. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 88,
+    "category": "logement",
+    "title": "Dispositif MaPrimeRénov — bilan 2024 (variation)",
+    "content": "Une analyse approfondie révèle que Dispositif MaPrimeRénov — bilan 2024 constitue un enjeu majeur. MaPrimeRénov a financé 700 000 rénovations énergétiques en 2024, pour un budget de 4 milliards d euros. Les travaux d isolation thermique représentent 45 % des dossiers. Le dispositif cible prioritairement les ménages modestes avec un bonus pour les zones rurales. Le gain énergétique moyen est de 40 % après rénovation."
+  },
+  {
+    "id": 89,
+    "category": "logement",
+    "title": "Dispositif MaPrimeRénov — bilan 2024 (variation)",
+    "content": "Dans le cadre des politiques publiques, Dispositif MaPrimeRénov — bilan 2024 fait l objet d une attention particulière. MaPrimeRénov a financé 700 000 rénovations énergétiques en 2024, pour un budget de 4 milliards d euros. Les travaux d isolation thermique représentent 45 % des dossiers. Le dispositif cible prioritairement les ménages modestes avec un bonus pour les zones rurales. Le gain énergétique moyen est de 40 % après rénovation."
+  },
+  {
+    "id": 90,
+    "category": "logement",
+    "title": "Dispositif MaPrimeRénov — bilan 2024 (variation)",
+    "content": "MaPrimeRénov a financé 700 000 rénovations énergétiques en 2024, pour un budget de 4 milliards d euros. Les travaux d isolation thermique représentent 45 % des dossiers. Le dispositif cible prioritairement les ménages modestes avec un bonus pour les zones rurales. Le gain énergétique moyen est de 40 % après rénovation. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 91,
+    "category": "logement",
+    "title": "Dispositif MaPrimeRénov — bilan 2024 (variation)",
+    "content": "MaPrimeRénov a financé 700 000 rénovations énergétiques en 2024, pour un budget de 4 milliards d euros. Les travaux d isolation thermique représentent 45 % des dossiers. Le dispositif cible prioritairement les ménages modestes avec un bonus pour les zones rurales. Le gain énergétique moyen est de 40 % après rénovation. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 92,
+    "category": "logement",
+    "title": "Politique du logement social — bilan QPV (variation)",
+    "content": "Une analyse approfondie révèle que Politique du logement social — bilan QPV constitue un enjeu majeur. Les quartiers prioritaires de la politique de la ville (QPV) concentrent 5,4 millions d habitants. Le programme de rénovation urbaine ANRU a engagé 12 milliards d euros depuis 2014. Les indicateurs de mixité sociale montrent une amélioration dans les quartiers rénovés, bien que les écarts de revenus restent supérieurs à la moyenne nationale."
+  },
+  {
+    "id": 93,
+    "category": "logement",
+    "title": "Politique du logement social — bilan QPV (variation)",
+    "content": "Dans le cadre des politiques publiques, Politique du logement social — bilan QPV fait l objet d une attention particulière. Les quartiers prioritaires de la politique de la ville (QPV) concentrent 5,4 millions d habitants. Le programme de rénovation urbaine ANRU a engagé 12 milliards d euros depuis 2014. Les indicateurs de mixité sociale montrent une amélioration dans les quartiers rénovés, bien que les écarts de revenus restent supérieurs à la moyenne nationale."
+  },
+  {
+    "id": 94,
+    "category": "logement",
+    "title": "Politique du logement social — bilan QPV (variation)",
+    "content": "Les quartiers prioritaires de la politique de la ville (QPV) concentrent 5,4 millions d habitants. Le programme de rénovation urbaine ANRU a engagé 12 milliards d euros depuis 2014. Les indicateurs de mixité sociale montrent une amélioration dans les quartiers rénovés, bien que les écarts de revenus restent supérieurs à la moyenne nationale. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 95,
+    "category": "logement",
+    "title": "Politique du logement social — bilan QPV (variation)",
+    "content": "Les quartiers prioritaires de la politique de la ville (QPV) concentrent 5,4 millions d habitants. Le programme de rénovation urbaine ANRU a engagé 12 milliards d euros depuis 2014. Les indicateurs de mixité sociale montrent une amélioration dans les quartiers rénovés, bien que les écarts de revenus restent supérieurs à la moyenne nationale. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 96,
+    "category": "education",
+    "title": "Rapport décrochage scolaire — MEN 2024 (variation)",
+    "content": "Une analyse approfondie révèle que Rapport décrochage scolaire — MEN 2024 constitue un enjeu majeur. Le taux de décrochage scolaire en France s établit à 8,5 % en 2024, en légère baisse. Les garçons sont deux fois plus touchés que les filles. Les lycées professionnels concentrent 60 % des décrocheurs. Les dispositifs de raccrochage (MLDS, MFR) permettent un retour en formation pour 40 % des jeunes contactés."
+  },
+  {
+    "id": 97,
+    "category": "education",
+    "title": "Rapport décrochage scolaire — MEN 2024 (variation)",
+    "content": "Dans le cadre des politiques publiques, Rapport décrochage scolaire — MEN 2024 fait l objet d une attention particulière. Le taux de décrochage scolaire en France s établit à 8,5 % en 2024, en légère baisse. Les garçons sont deux fois plus touchés que les filles. Les lycées professionnels concentrent 60 % des décrocheurs. Les dispositifs de raccrochage (MLDS, MFR) permettent un retour en formation pour 40 % des jeunes contactés."
+  },
+  {
+    "id": 98,
+    "category": "education",
+    "title": "Rapport décrochage scolaire — MEN 2024 (variation)",
+    "content": "Le taux de décrochage scolaire en France s établit à 8,5 % en 2024, en légère baisse. Les garçons sont deux fois plus touchés que les filles. Les lycées professionnels concentrent 60 % des décrocheurs. Les dispositifs de raccrochage (MLDS, MFR) permettent un retour en formation pour 40 % des jeunes contactés. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 99,
+    "category": "education",
+    "title": "Rapport décrochage scolaire — MEN 2024 (variation)",
+    "content": "Le taux de décrochage scolaire en France s établit à 8,5 % en 2024, en légère baisse. Les garçons sont deux fois plus touchés que les filles. Les lycées professionnels concentrent 60 % des décrocheurs. Les dispositifs de raccrochage (MLDS, MFR) permettent un retour en formation pour 40 % des jeunes contactés. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 100,
+    "category": "education",
+    "title": "Service civique — bilan annuel 2024 (variation)",
+    "content": "Une analyse approfondie révèle que Service civique — bilan annuel 2024 constitue un enjeu majeur. 180 000 jeunes ont effectué une mission de service civique en 2024. Les secteurs les plus représentés sont la solidarité (35 %), le sport (22 %) et l éducation (18 %). La durée moyenne des missions est de 8 mois. Le dispositif favorise l insertion professionnelle : 72 % des anciens volontaires trouvent un emploi dans les 6 mois suivants."
+  },
+  {
+    "id": 101,
+    "category": "education",
+    "title": "Service civique — bilan annuel 2024 (variation)",
+    "content": "Dans le cadre des politiques publiques, Service civique — bilan annuel 2024 fait l objet d une attention particulière. 180 000 jeunes ont effectué une mission de service civique en 2024. Les secteurs les plus représentés sont la solidarité (35 %), le sport (22 %) et l éducation (18 %). La durée moyenne des missions est de 8 mois. Le dispositif favorise l insertion professionnelle : 72 % des anciens volontaires trouvent un emploi dans les 6 mois suivants."
+  },
+  {
+    "id": 102,
+    "category": "education",
+    "title": "Service civique — bilan annuel 2024 (variation)",
+    "content": "180 000 jeunes ont effectué une mission de service civique en 2024. Les secteurs les plus représentés sont la solidarité (35 %), le sport (22 %) et l éducation (18 %). La durée moyenne des missions est de 8 mois. Le dispositif favorise l insertion professionnelle : 72 % des anciens volontaires trouvent un emploi dans les 6 mois suivants. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 103,
+    "category": "education",
+    "title": "Service civique — bilan annuel 2024 (variation)",
+    "content": "180 000 jeunes ont effectué une mission de service civique en 2024. Les secteurs les plus représentés sont la solidarité (35 %), le sport (22 %) et l éducation (18 %). La durée moyenne des missions est de 8 mois. Le dispositif favorise l insertion professionnelle : 72 % des anciens volontaires trouvent un emploi dans les 6 mois suivants. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 104,
+    "category": "economie",
+    "title": "Note conjoncture INSEE — T3 2024 (variation)",
+    "content": "Une analyse approfondie révèle que Note conjoncture INSEE — T3 2024 constitue un enjeu majeur. La croissance du PIB français s établit à +0,4 % au troisième trimestre 2024. L inflation ralentit à 2,1 % sur un an. Le taux de chômage se stabilise à 7,3 %. La consommation des ménages reste le principal moteur de croissance, soutenue par la progression des salaires réels. Les exportations souffrent du ralentissement de la demande européenne."
+  },
+  {
+    "id": 105,
+    "category": "economie",
+    "title": "Note conjoncture INSEE — T3 2024 (variation)",
+    "content": "Dans le cadre des politiques publiques, Note conjoncture INSEE — T3 2024 fait l objet d une attention particulière. La croissance du PIB français s établit à +0,4 % au troisième trimestre 2024. L inflation ralentit à 2,1 % sur un an. Le taux de chômage se stabilise à 7,3 %. La consommation des ménages reste le principal moteur de croissance, soutenue par la progression des salaires réels. Les exportations souffrent du ralentissement de la demande européenne."
+  },
+  {
+    "id": 106,
+    "category": "economie",
+    "title": "Note conjoncture INSEE — T3 2024 (variation)",
+    "content": "La croissance du PIB français s établit à +0,4 % au troisième trimestre 2024. L inflation ralentit à 2,1 % sur un an. Le taux de chômage se stabilise à 7,3 %. La consommation des ménages reste le principal moteur de croissance, soutenue par la progression des salaires réels. Les exportations souffrent du ralentissement de la demande européenne. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 107,
+    "category": "economie",
+    "title": "Note conjoncture INSEE — T3 2024 (variation)",
+    "content": "La croissance du PIB français s établit à +0,4 % au troisième trimestre 2024. L inflation ralentit à 2,1 % sur un an. Le taux de chômage se stabilise à 7,3 %. La consommation des ménages reste le principal moteur de croissance, soutenue par la progression des salaires réels. Les exportations souffrent du ralentissement de la demande européenne. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 108,
+    "category": "economie",
+    "title": "Évaluation impact Prime d activité (variation)",
+    "content": "Une analyse approfondie révèle que Évaluation impact Prime d activité constitue un enjeu majeur. La prime d activité bénéficie à 4,4 millions de foyers en 2024 pour un coût de 9,8 milliards d euros. L évaluation économétrique montre un effet positif sur le retour à l emploi des travailleurs à temps partiel. La méthodologie de différence en différences compare les trajectoires d emploi avant et après l introduction de la prime."
+  },
+  {
+    "id": 109,
+    "category": "economie",
+    "title": "Évaluation impact Prime d activité (variation)",
+    "content": "Dans le cadre des politiques publiques, Évaluation impact Prime d activité fait l objet d une attention particulière. La prime d activité bénéficie à 4,4 millions de foyers en 2024 pour un coût de 9,8 milliards d euros. L évaluation économétrique montre un effet positif sur le retour à l emploi des travailleurs à temps partiel. La méthodologie de différence en différences compare les trajectoires d emploi avant et après l introduction de la prime."
+  },
+  {
+    "id": 110,
+    "category": "economie",
+    "title": "Évaluation impact Prime d activité (variation)",
+    "content": "La prime d activité bénéficie à 4,4 millions de foyers en 2024 pour un coût de 9,8 milliards d euros. L évaluation économétrique montre un effet positif sur le retour à l emploi des travailleurs à temps partiel. La méthodologie de différence en différences compare les trajectoires d emploi avant et après l introduction de la prime. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 111,
+    "category": "economie",
+    "title": "Évaluation impact Prime d activité (variation)",
+    "content": "La prime d activité bénéficie à 4,4 millions de foyers en 2024 pour un coût de 9,8 milliards d euros. L évaluation économétrique montre un effet positif sur le retour à l emploi des travailleurs à temps partiel. La méthodologie de différence en différences compare les trajectoires d emploi avant et après l introduction de la prime. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  },
+  {
+    "id": 112,
+    "category": "economie",
+    "title": "Rapport Cour des comptes — dépenses sociales (variation)",
+    "content": "Une analyse approfondie révèle que Rapport Cour des comptes — dépenses sociales constitue un enjeu majeur. Les dépenses de protection sociale représentent 34 % du PIB en France, soit le niveau le plus élevé de l OCDE. La Cour des comptes souligne la nécessité d une meilleure évaluation des politiques sociales et d une rationalisation des minima sociaux. Le rapport recommande la fusion de plusieurs allocations pour simplifier le système et réduire le non-recours."
+  },
+  {
+    "id": 113,
+    "category": "economie",
+    "title": "Rapport Cour des comptes — dépenses sociales (variation)",
+    "content": "Dans le cadre des politiques publiques, Rapport Cour des comptes — dépenses sociales fait l objet d une attention particulière. Les dépenses de protection sociale représentent 34 % du PIB en France, soit le niveau le plus élevé de l OCDE. La Cour des comptes souligne la nécessité d une meilleure évaluation des politiques sociales et d une rationalisation des minima sociaux. Le rapport recommande la fusion de plusieurs allocations pour simplifier le système et réduire le non-recours."
+  },
+  {
+    "id": 114,
+    "category": "economie",
+    "title": "Rapport Cour des comptes — dépenses sociales (variation)",
+    "content": "Les dépenses de protection sociale représentent 34 % du PIB en France, soit le niveau le plus élevé de l OCDE. La Cour des comptes souligne la nécessité d une meilleure évaluation des politiques sociales et d une rationalisation des minima sociaux. Le rapport recommande la fusion de plusieurs allocations pour simplifier le système et réduire le non-recours. Ce document constitue une référence pour les professionnels du secteur."
+  },
+  {
+    "id": 115,
+    "category": "economie",
+    "title": "Rapport Cour des comptes — dépenses sociales (variation)",
+    "content": "Les dépenses de protection sociale représentent 34 % du PIB en France, soit le niveau le plus élevé de l OCDE. La Cour des comptes souligne la nécessité d une meilleure évaluation des politiques sociales et d une rationalisation des minima sociaux. Le rapport recommande la fusion de plusieurs allocations pour simplifier le système et réduire le non-recours. Des recommandations opérationnelles sont formulées à destination des acteurs institutionnels."
+  }
+]
