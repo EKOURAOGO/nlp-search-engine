@@ -1,4 +1,4 @@
-# NLP - Moteur de Recherche Sémantique (TF-IDF + BM25)
+# NLP - Moteur de recherche sémantique (TF-IDF + BM25)
 
 Moteur de recherche sur corpus textuel combinant **TF-IDF cosinus** et **BM25 Okapi** dans un score hybride configurable. Appliqué à un corpus de documents sur les politiques publiques et l'emploi data (115 documents). Architecture modulaire avec 20 tests unitaires.
 
