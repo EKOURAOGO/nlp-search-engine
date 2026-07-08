@@ -156,10 +156,11 @@ with tab1:
     query = st.text_input("", placeholder="Rechercher dans le corpus…",
                           label_visibility="collapsed")
 
-    st.markdown('<div style="margin: 0.6rem 0 1.2rem 0">', unsafe_allow_html=True)
+    query_html = '<div style="margin: 0.6rem 0 1.2rem 0">'
     for qex in QUICK_QUERIES:
-        st.markdown(f'<span class="quick-query">{qex}</span>', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+        query_html += f'<span class="quick-query">{qex}</span>'
+    query_html += '</div>'
+    st.markdown(query_html, unsafe_allow_html=True)
 
     if not query:
         st.markdown('<p style="color:#475569;font-size:0.85rem">Entrez une requête pour explorer le corpus.</p>', unsafe_allow_html=True)
@@ -248,15 +249,12 @@ with tab3:
             (c2,"BM25 Okapi",r_bm,"#34D399"),
             (c3,f"Hybride α={tfidf_w}",r_hy,"#F59E0B"),
         ]:
-            col.markdown(f'<div class="compare-card"><div class="compare-method" style="color:{accent}">{label}</div>', unsafe_allow_html=True)
+            html_content = f'<div class="compare-card"><div class="compare-method" style="color:{accent}">{label}</div>'
             for r in results:
                 short = r["title"][:38]+"…" if len(r["title"])>38 else r["title"]
-                col.markdown(f"""
-<div class="compare-row">
-  <span class="compare-doc">{short}</span>
-  <span class="compare-sc" style="background:{accent}1A;color:{accent};border:1px solid {accent}33">{r["score"]:.3f}</span>
-</div>""", unsafe_allow_html=True)
-            col.markdown("</div>", unsafe_allow_html=True)
+                html_content += f'<div class="compare-row"><span class="compare-doc">{short}</span><span class="compare-sc" style="background:{accent}1A;color:{accent};border:1px solid {accent}33">{r["score"]:.3f}</span></div>'
+            html_content += '</div>'
+            col.markdown(html_content, unsafe_allow_html=True)
 
         ids_tf = {r["id"] for r in r_tf}
         ids_bm = {r["id"] for r in r_bm}
