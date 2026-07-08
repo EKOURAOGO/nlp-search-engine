@@ -98,8 +98,7 @@ PALETTE = ["#6366F1","#34D399","#F59E0B","#F87171","#A78BFA"]
 LAYOUT  = dict(paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="#111318",
                font=dict(family="Inter", color="#94A3B8", size=11),
                margin=dict(t=32,b=12,l=12,r=12),
-               xaxis=dict(gridcolor="#1C1F28",linecolor="#1C1F28"),
-               yaxis=dict(gridcolor="#1C1F28",linecolor="#1C1F28"))
+               xaxis=dict(gridcolor="#1C1F28",linecolor="#1C1F28"))
 
 QUICK_QUERIES = [
     "data scientist machine learning Python",
@@ -230,6 +229,7 @@ with tab2:
                           xaxis_title="", yaxis_title="Nb mots",
                           title="Distribution longueur", title_font_size=12,
                           title_font_color="#94A3B8")
+        fig.update_yaxes(gridcolor="#1C1F28", linecolor="#1C1F28")
         fig.update_traces(marker=dict(color="#F59E0B", opacity=0.7))
         st.plotly_chart(fig, use_container_width=True)
 
