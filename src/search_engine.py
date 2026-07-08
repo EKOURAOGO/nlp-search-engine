@@ -159,6 +159,7 @@ class SearchEngine:
                 "category": doc.get("category", ""),
                 "score": round(float(scores[idx]), 4),
                 "preview": doc["content"][:200] + "...",
+                "content": doc["content"],
             })
             if len(results) >= top_k:
                 break
