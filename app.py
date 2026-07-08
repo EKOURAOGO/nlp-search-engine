@@ -197,9 +197,9 @@ with tab1:
                 ))
                 fig.update_layout(**LAYOUT, height=max(200, len(results)*38),
                                    showlegend=False, xaxis_showgrid=False,
-                                   yaxis=dict(autorange="reversed", gridcolor="rgba(0,0,0,0)"),
                                    title="Scores de pertinence", title_font_size=12,
                                    title_font_color="#94A3B8")
+                fig.update_yaxes(autorange="reversed", gridcolor="rgba(0,0,0,0)")
                 st.plotly_chart(fig, use_container_width=True)
 
 with tab2:
