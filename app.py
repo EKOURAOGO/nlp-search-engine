@@ -185,6 +185,13 @@ with tab1:
   </div>
   <div class="result-preview">{r["preview"]}</div>
 </div>""", unsafe_allow_html=True)
+                    
+                    # Ajouter expandable pour voir le contenu complet
+                    with st.expander(f"📄 Voir le contenu complet — {r['title'][:45]}"):
+                        st.markdown(f"**ID:** {r['id']} | **Catégorie:** {meta['label']} | **Score:** {r['score']:.4f}")
+                        st.divider()
+                        st.write("**Contenu complet :**")
+                        st.info(r["content"])
 
             with col_chart:
                 df_r = pd.DataFrame(results[:8])
