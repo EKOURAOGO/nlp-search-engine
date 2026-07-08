@@ -45,6 +45,9 @@ nlp-search-engine/
 │   └── corpus.json        # Corpus indexé
 ├── tests/
 │   └── test_search_engine.py  # 20 tests unitaires
+├── .streamlit/
+│   └── config.toml        # Configuration Streamlit
+├── app.py                 # Dashboard Streamlit interactif 🎨
 ├── requirements.txt
 └── README.md
 ```
@@ -52,6 +55,31 @@ nlp-search-engine/
 ---
 
 ## Utilisation
+
+### Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+### Dashboard Streamlit
+
+```bash
+streamlit run app.py
+```
+
+L'app s'ouvre sur `http://localhost:8501`
+
+**Features du dashboard :**
+- 🔍 Recherche hybride interactive (TF-IDF / BM25 / Hybride)
+- 📊 Visualisations temps réel (scores, répartition, longueur)
+- ⚙️ Paramètres configurables (α, top-k, catégories)
+- 🔀 Comparaison directe des 3 méthodes
+- 📈 Statistiques corpus et vocabulaire
+
+### Utilisation en Python
+
+### Utilisation en Python
 
 ```python
 from src.search_engine import load_engine_from_file
@@ -71,8 +99,6 @@ for r in results:
 ```
 
 ---
-
-## Catégories du corpus
 
 | Catégorie | Documents | Contenu |
 |-----------|-----------|---------|
@@ -101,6 +127,8 @@ Les tests couvrent : initialisation, indexation, recherche (3 méthodes), filtre
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-TF--IDF-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![BM25](https://img.shields.io/badge/rank--bm25-BM25%20Okapi-blue?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Visualizations-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-20%20tests-red?style=flat-square)
 
 ---
