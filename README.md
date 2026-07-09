@@ -47,7 +47,7 @@ nlp-search-engine/
 │   └── test_search_engine.py  # 20 tests unitaires
 ├── .streamlit/
 │   └── config.toml        # Configuration Streamlit
-├── app.py                 # Dashboard Streamlit interactif 🎨
+├── app.py                 # Dashboard Streamlit interactif 
 ├── requirements.txt
 └── README.md
 ```
@@ -71,30 +71,30 @@ streamlit run app.py
 L'app s'ouvre sur `http://localhost:8501`
 
 **Features du dashboard :**
-- 🔍 Recherche hybride interactive (TF-IDF / BM25 / Hybride)
-- 📊 Visualisations temps réel (scores, répartition, longueur)
-- ⚙️ Paramètres configurables (α, top-k, catégories)
-- 🔀 Comparaison directe des 3 méthodes
-- 📈 Statistiques corpus et vocabulaire
+-  Recherche hybride interactive (TF-IDF / BM25 / Hybride)
+-  Visualisations temps réel (scores, répartition, longueur)
+-  Paramètres configurables (α, top-k, catégories)
+-  Comparaison directe des 3 méthodes
+-  Statistiques corpus et vocabulaire
 
 ---
 
-## 📊 Visualisations du Dashboard
+## Visualisations du Dashboard
 
-### 🔍 Onglet Recherche — Résultats hybrides
+### Onglet Recherche - Résultats hybrides
 
 Interface de recherche interactive avec affichage des résultats rangés par score de pertinence. À gauche : liste des documents trouvés avec snippet et catégorie. À droite : graphique bar chart des scores.
 
 ![Dashboard Recherche](docs/images/dashboard-search.png)
 
-### 📈 Onglet Corpus — Statistiques
+### Onglet Corpus - Statistiques
 
 - **Répartition par catégorie** : Donut chart montrant la distribution des 115 documents entre 5 catégories (Data & Emploi, Santé publique, Logement, Éducation, Économie)
 - **Distribution des longueurs** : Box plot par catégorie montrant la variabilité du nombre de mots
 
 ![Dashboard Corpus](docs/images/dashboard-corpus.png)
 
-### 🔀 Onglet Comparaison — TF-IDF vs BM25 vs Hybride
+### Onglet Comparaison - TF-IDF vs BM25 vs Hybride
 
 Comparaison directe des 3 méthodes sur une même requête. Affiche les top-5 résultats pour chaque méthode avec code couleur distinctif et scores normalisés.
 
